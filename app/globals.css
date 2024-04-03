@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+}
+
+tr,
+td {
+    border: 1px solid black;
+}
+
+
+
+.result-checker>.pool-numbers input[type="number"] {
+    display: block;
+    width: 1.5625rem;
+    height: 1.5625rem;
+    border-radius: 50%;
+
+
+}
+
+input[type="number"] {
+    width: 1.5625rem;
+    height: 1.5625rem;
+    display: block;
+    outline: .0625rem solid rgb(83, 82, 82);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-align: center;
+
+}
+
+input[type="number"]:focus {
+    outline: 2px solid rgb(42, 37, 37);
+
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button, textarea {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number], textarea {
+  -moz-appearance: textfield;
+}
+
+textarea {
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box;
+}
