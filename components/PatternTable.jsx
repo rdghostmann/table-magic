@@ -3,14 +3,7 @@ import React, { useState, useRef, useEffect } from 'react';
 
 const PatternTable = () => {
   const rawPattern = `
-    16    8   30    62
-    58   55   54   
-    65   46   74   
-    86   40   61   
-    41   81   20   
-     35   22   73   
-    56   76   80   9
-    69   19    1   3
+ 
    `;
 
   const tbl = useRef(null);
